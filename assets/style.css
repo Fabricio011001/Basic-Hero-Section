@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9FAFB;
+}
+
+.upper-box h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2.5px;
+    text-align: center;
+}
+
+.upper-box p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #6C727F;
+}
+
+.upper-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    width: 38%;
+}
+
+.lower-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 27%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.lower-box form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.lower-box input[type="email"] {
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    padding: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6C727F;
+    background-color: #F9FAFB;
+}
+
+.lower-box input[type="submit"] {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #3662E3;
+    border: #3662E3;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lower-box p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C727F;
+    margin: auto;
+    text-align: justify;
+}
