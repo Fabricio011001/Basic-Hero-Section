@@ -4,7 +4,7 @@ body {
 }
 
 .upper-box h1 {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 4vw, 3rem);
     font-weight: 600;
     margin-bottom: 2.5px;
     text-align: center;
@@ -15,6 +15,8 @@ body {
     font-weight: 400;
     text-align: center;
     color: #6C727F;
+    max-width: 700px;
+    width: 100%;
 }
 
 .upper-box {
@@ -23,15 +25,16 @@ body {
     align-items: center;
     margin: auto;
     margin-top: 120px;
-    margin-bottom: 50px;
-    width: 38%;
+    margin-bottom: 35px;
+    width: 100%;
 }
 
 .lower-box {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    width: 27%;
+    width: 80%;
+    max-width: 500px;
     margin: auto;
     padding: 20px;
     border-radius: 15px;
@@ -74,5 +77,5 @@ body {
     font-weight: 400;
     color: #6C727F;
     margin: auto;
-    text-align: justify;
+    text-align: center;
 }
